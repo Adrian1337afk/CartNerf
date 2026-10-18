@@ -1,0 +1,3 @@
+# How much TNT minecart explosion damage to players is reduced, in percent.
+# 0 = normal damage, 50 = half damage, 100 = no damage. Set in-game with /cartnerf 50%
+reduction-percent: 0

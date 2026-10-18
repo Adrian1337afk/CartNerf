@@ -1,0 +1,17 @@
+name: CartNerf
+version: 1.0.0
+main: cartnerf.CartNerfPlugin
+api-version: '1.21'
+author: you
+description: Reduces TNT minecart explosion damage to players by a set percentage.
+
+commands:
+  cartnerf:
+    description: Set how much TNT minecart damage is reduced
+    usage: /cartnerf <0-100>%
+    permission: cartnerf.admin
+
+permissions:
+  cartnerf.admin:
+    description: Use /cartnerf
+    default: op
